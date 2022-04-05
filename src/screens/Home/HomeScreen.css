@@ -1,0 +1,12 @@
+.app-heading {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.matrix-container { 
+    width: 80%;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
