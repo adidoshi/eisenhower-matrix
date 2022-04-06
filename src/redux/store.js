@@ -1,8 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
-import taskReducer from "./taskSlice";
+import doFirstTaskReducer from "./doFirstTaskSlice";
+import scheduledTaskReducer from "./scheduleTaskSlice";
 
 export default configureStore({
   reducer: {
-    tasks: taskReducer,
+    doFirstTasks: doFirstTaskReducer,
+    scheduledTasks: scheduledTaskReducer,
   },
 });
